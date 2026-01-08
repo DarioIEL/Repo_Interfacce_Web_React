@@ -1,0 +1,13 @@
+.styleImg{
+    width: 250px;
+    height: auto;
+}
+
+.box{
+    background-color: green;
+}
+
+.rounded{
+    border-radius: 50px;
+}
+

@@ -1,0 +1,12 @@
+.card{
+    width: 24%;
+    border: 1px solid white;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.card-image img{
+    width: 100%;
+    border-radius: 20px;
+}

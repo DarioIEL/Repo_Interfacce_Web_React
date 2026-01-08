@@ -3,7 +3,7 @@ import "./Navbar.css"
 function Navbar(){
     // In questo punto posso scrivere come se fosse semplice javascript
     let pagina1 = "Homepage";
-    let mioNome = "Paolo";
+    let mioNome = "Dario";
 
     return(
         <>
@@ -15,7 +15,7 @@ function Navbar(){
                 <li>Contattaci</li>
             </ul>
 
-            <p>{mioNome == "Dario"? "Ciao Dario, benvenuto": "Mi spiace, non ti conosco"}</p>
+            <p>{mioNome == "Dario"? `Ciao ${mioNome}, benvenuto`: `Mi spiace ${mioNome}, non ti conosco`}</p>
         </>
     )
 }
