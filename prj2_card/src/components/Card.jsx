@@ -25,7 +25,7 @@ import "./Card.css"
 //Se uso la parola chiave children posso passare delle proprietà utilizzando lo spazio tra i campi del selettore del component all'interno del parent
 function Card({titolo, image, descrizione, children, isDisponibile}){
      return(
-       <div className="card">
+       <div className={`card ${isDisponibile ? "bgGreen" : "bgRed"}`}>
             <div className="card-image">
                 <img src={image} alt="" />
             </div>
@@ -42,6 +42,9 @@ function Card({titolo, image, descrizione, children, isDisponibile}){
                 {isDisponibile && <span>Disponibile all'acquisto</span>}
                 {!isDisponibile && <span>Non disponibile all'acquisto</span>}
 
+                <br />
+
+                {isDisponibile && <button className="btn btn-primary">Compra</button>}
             </div>
        </div>
     )
