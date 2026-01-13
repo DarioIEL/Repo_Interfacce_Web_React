@@ -1,0 +1,25 @@
+.card{
+    box-sizing: border-box;
+    width: 24%;
+    padding: 1em;
+    border: 1px solid black;
+
+}
+.card-image{
+    position: relative;
+}
+.card-image img{
+    width: 100%;
+}
+
+.txtRed{
+    color: red;
+}
+
+.bgGreen{
+    background-color: rgba(0, 241, 0, 0.336);
+}
+
+.bgRed{
+    background-color: rgba(229, 2, 2, 0.385);
+}

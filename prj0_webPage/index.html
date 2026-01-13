@@ -7,8 +7,19 @@
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
 </head>
 <body>
-    <button class="btn btn-primary">Cliccami</button>
+    <button class="btn btn-primary" id="btnCl" onclick="cliccami()">Cliccami</button>
+
 
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+    <script>
+        function cliccami(){
+            console.log("Hai cliccato");
+        }
+
+        // document.querySelector("#btnCl").addEventListener("click", function(){
+        //     cliccami();
+        // }, false);
+    </script>
 </body>
 </html>
